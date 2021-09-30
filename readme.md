@@ -14,11 +14,11 @@
 
 ## Descripcion :notebook:
 
-**Aprender Nodejs**
-<p>Este curso tiene por objetivo explicar en profundidad como funcionan nodejs y como crear proyectos en nodejs </p>
+**Aprender HTML y CSS**
+<p>En el curso de frontend developer se ven los inicios de html y css y los metodos de desarrollos modernos . </p>
 
 ## Listado de Temas del Curso: 💯
-    *   Curso de Node.js
+    *   HTML5 + CSS3 => Patrones de Diseño Responsive 
 ---
 #### **HTML y CSS**
 *   HTML es un lenguaje de marcas de hipertexto, y aquí es donde se estructura toooda la página web. 
