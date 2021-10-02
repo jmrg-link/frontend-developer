@@ -134,3 +134,57 @@ Nos permite tener un código mucho más claro, ligero y fácil de leer.
 - **CENTENIDO DEL CUERPO PRINCIPAL**:** < main >** , con varias subsecciones de -contenido representados por **< article >**, **< section >** y **< div >** elementos.
 - **RECUADRO****:< aside> a menudo colocado en el interior **< main >**.
 - **PIE DE PAGINA O FOOTER**: **< footer >**
+
+
+---
+
+#### Etiquetas HTML Basicas
+* **¿Cuáles son las etiquetas HTML básicas?**
+  * Hay una serie de etiquetas que son las más usadas para crear cualquier documento HTML, a continuación las explicamos:
+* **Listado de Etiquetas :**
+* **Etiquetas base**
+  * **< !doctype >** : Indica version html
+  * **< html >** : es la raiz del archivo
+  * **< head >** : engloba metadatos
+  * **< title >** : titulo pestaña navegador
+  * **< link >** : enlazar archivos css externos no embebidos
+  * **< style >** : escribir css dentro del html
+  * **< script >** : enlaza o escribe scripts de js
+  * **< meta >** : caracteristicas de la pagina html creada
+  * **< body >** : cuerpo visible html
+* **Para texto**
+  * **< p >** : parrafo
+  * **< span >** para estilos de una parte del texto
+  * **< Hx >** : tituto o subtitulo , creado con jerearquias de importacias de 1 al 6 ejemplo.
+  * **< b >** : texto negrita
+  * **< i >** : texto italica
+  * **< u >** : texto subrayado
+  * **< a >** : agrega link a texto
+  * **< strong >** : texto con importacia
+  * **< blockquote >** : texto en formato cita
+  * **< br >** : salto de linea o retorno de carro "enter"
+* **Para multimedia**
+  * **< img >** : insertat imagen
+  * **< video >** : insertar video
+  * **< iframe >** : insertar contenido de otro website
+  * **< audio >** : insertar audio
+* **Para la estructura de contenido**
+  * **< ul >** : crea lista sin orden
+  * **< ol >** : crea lista ordenada
+  * **< li >** : defina articulos de listas
+  * **< div >** : selecciona o agrupa etiquetas 
+  * **< nav >** : crea el menu de navegacion
+  * **< header >** : define cabecera 
+  * **< footer >** : define pie de pagina
+* **Para crear tablas** 
+  * **< table >** : crea una tabla
+  * **< tr >** : crea flas
+  * **< td >** : crea columnas
+  * **< th >** : crea titulo de columna
+  * **< col >** : especifica las propiedades de las columnas
+* **Para crear formularios**
+  * **< form >** : crea un formulario
+  * **< input >** : campo para introducir datos de entrada
+  * **< label >** : titulo del input 
+  * **< textarea >** : campo para introducir datos
+  * **< button >** : boton
