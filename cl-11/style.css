@@ -1,0 +1,19 @@
+div p {
+   color: Lime;
+}
+
+div > div {
+    background: plum;
+}
+.siglo{
+    background: red;
+    margin: 225px 0 0 0
+}
+div ~ p{
+    color: powderblue;
+}
+
+div + section{
+    background: palevioletred;
+    text-align: center;
+}
