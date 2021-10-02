@@ -103,7 +103,7 @@ class: Atributo
 </html> 
  ```
 
-#### HTML Semantico:
+> #### HTML Semantico:
 * HTML semántico
 * Es un concepto muy importante para los nosotros como desarrolladores.
 
@@ -224,7 +224,7 @@ Nos permite tener un código mucho más claro, ligero y fácil de leer.
 </div>
 
 ---
-#### Selectores básicos
+> #### Selectores básicos
 * **De tipo:** 
   * Este selector nos permite tomar cualquier etiqueta HTML usando su mismo nombre. ¡Pero recuerda que en tu HTML puede haber varias etiquetas con el mismo nombre! Así que este selector agarrará TODAS las etiquetas que coincidan con el mismo nombre 👀.
 
@@ -303,3 +303,29 @@ universal: *{...}
 
 /*General de Herencia:*/  div ~ p { color: black}
 ```
+
+---
+> #### Notas de la clase
+* Las **pseudoclases** nos permite llegar a aquellas acciones que hace el usuario.
+  *   :active
+  *   :focus
+  *   :hover
+  *   :nth-child(n)
+* Los **pseudoelementos** nos permiten acceder a elementos de HTML que no son accesibles con los selectores ya vistos.
+  * ::after
+  * ::before
+  * ::first-letter
+  * ::placeholder
+* **NOTA :**La pseudoclase** se escribe con : y los pseudoelementos se escriben con **::**
+<br>
+> * **Definiciones:**
+  
+* **::first-line:** Para agregar estilos a la primer linea de un texto.
+* **::first-letter:** Para agregar estilos a la primer letra de un texto.
+* **::before:** Para insetar contenido al comienzo de un elemento.
+* **::after:** Para insetar contenido al final de un elemento.
+* **::marker**: Selector para la caja de marcadores de un elemento de la lista, que normalmente contiene una viñeta o un número.
+* **::selection:** Aplica reglas a una porción de un documento que ha sido destacado (por ejemplo: selección con el mouse o algún otro puntero en un dispositivo) del usuario.
+* **:visited:** Selector para todos los links visitados previamente.
+* **:valid:** Selector para todos los elementos (Inputs) con valores válidos.
+* **:required** Selector para todos los elementos (inputs) con el atributo “required”.
