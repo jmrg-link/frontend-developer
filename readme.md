@@ -205,3 +205,101 @@ Nos permite tener un código mucho más claro, ligero y fácil de leer.
   * **< label >** : titulo del input 
   * **< textarea >** : campo para introducir datos
   * **< button >** : boton
+
+---
+#### Estructura CSS
+* **Selector**
+  * Es el medio que no comunica entre el HTML y el CSS, con él podemos decir que etiqueta, clase o id queremos estilizar.
+
+  * Dentro de las llaves, que va seguido del selector, va todo nuestro código de CSS.
+
+* **Propiedad**
+  * Hay muchos tipos y es el tipo o clase de estilos que queremos aplicar.
+
+* **Valor**
+  * Es el valor que queremos que tenga nuestra propiedad.
+
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202021-10-01%20003835-c67963e9-19f7-42c7-bc64-f7634d347c8f.jpg" alt="platzi-css" height="300px">
+</div>
+
+---
+#### Selectores básicos
+* **De tipo:** 
+  * Este selector nos permite tomar cualquier etiqueta HTML usando su mismo nombre. ¡Pero recuerda que en tu HTML puede haber varias etiquetas con el mismo nombre! Así que este selector agarrará TODAS las etiquetas que coincidan con el mismo nombre 👀.
+
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/carbon%20%281%29-579aba99-581c-415e-8eb7-e8ec95c92b57.jpg" alt="platzi-css" height="300px">
+</div>
+
+* **De clase:** 
+  * Una clase básicamente es un atributo más dentro de tu HTML, por ejemplo, yo puedo tener este div:
+
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/carbon%20%281%29-579aba99-581c-415e-8eb7-e8ec95c92b57.jpg" alt="platzi-css-clase" height="300px">
+</div>
+
+* Entonces, mediante este selector, yo puedo agarrar a todas las etiquetas que tengan la clase “rojito”, por lo que, si yo tengo estos divs:
+
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/carbon%20%284%29-32d0b6f9-25f8-4769-87a8-88084be871d6.jpg" alt="platzi-css-clase-2" height="300px">
+</div>
+
+* Y en la posterior imagen se defenira el uso del selector css:
+
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/carbon%20%282%29-34d50dd4-c51e-4511-a0cf-14dfc4db080a.jpg" alt="platzi-css-clase-2" height="300px">
+</div>
+
+* **De ID:** 
+  * Como su nombre lo dice, este es un selector que selecciona cualquier elemento a través de su id. Al igual que con las clases, podemos poner un id a nuestros elementos, pero a diferencia de las clases **NO debemos poner el mismo id en dos o más elementos**.
+
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/carbon%20%286%29-055c8ad6-f136-4768-b09a-6dcfc54cb6cf.jpg" alt="platzi-css-clase" height="300px">
+</div>
+
+* **De Atributo:** 
+  * Básicamente, al igual que con las clases, podemos seleccionar varios elementos, pero ahora filtrándolos por su atributo (en el ejemplo de la clase usamos href, pero podemos usar cualquier otro atributo OwO)..
+```css
+a [href="***"]{...}
+```
+
+* **Universal:** 
+  * En pocas palabras, este selector agarra todo lo que esté en nuestro HTML
+```css
+* {...}
+```
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/sintaxis-avanzada-css-e80923a7-69e3-449a-8449-66ac9be75436.jpg" alt="platzi-css-css" height="300px">
+</div>
+
+* **NOTAS RAPIAS:**
+   Notas de la clase
+
+* **Básicos**
+  * De tipo: div {...}
+  * De clase: .elemento {...}
+  * De ID: #id-del-elemento
+  * De atributo: a[href="..."]{...}
+universal: *{...}
+* **Combinadores**
+  * Descendientes: div p
+  * Hijo directo: div > p
+  * Elemento adyaente: div + p
+  * General de hermanos: div ~ p
+
+```css
+//Aplica estilos a todos los p que esten dentro del Div
+/*Descendientes: */  div  p { color:red;}
+
+//Aplica el estilo a la etiqueta p que este despues del div padre
+
+/*Hijo Directo: */div > p { color: blue;}
+
+//Aplica estilos a la etiqueta P que este seguida del DIV
+/*Elemento Adyacente:*/ div + p { color: green;}
+
+//Aplica estilos a todos los hermanos P despues de Div
+
+/*General de Herencia:*/  div ~ p { color: black}
+```
