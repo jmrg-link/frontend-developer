@@ -57,6 +57,7 @@ Elemento
 1º etiqueta de apertura <h1>
 2º contenido <h1>contenido</h1>
 3º etiqueta de cierre </h1>
+// ejemplo // <h1 class="bigH1">Ejemplo de Header 1</h1>
 
 ```
 
