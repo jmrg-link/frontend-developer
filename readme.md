@@ -128,7 +128,7 @@ Nos permite tener un código mucho más claro, ligero y fácil de leer.
 
 * **Estructura basica**
   * Todas los sitios web tienden a compartir componentes estándar similares.
-  * web de referencia : [htmlrefence.io]: htmlrefence.io
+  * web de referencia : [link] (https://htmlreference.io)
   
 - **CABEZERA o HEADER**: **< header >**
 - **NAV o NAVBAR**: **< nav >** .
