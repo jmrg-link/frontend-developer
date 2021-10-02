@@ -57,12 +57,80 @@ Elemento
 1º etiqueta de apertura <h1>
 2º contenido <h1>contenido</h1>
 3º etiqueta de cierre </h1>
-// ejemplo // <h1 class="bigH1">Ejemplo de Header 1</h1>
+
 
 ```
 
 * Atributos:
 ```text
-// h1 atributos ("class")
-<h1 class ="title">
+
+<h1>: Etiqueta de apertura
+</h1>: Etiqueta de cierre
+Platzi: Contenido
+class: Atributo
+"title": Valor
+
+<h1 class="title">Platzi</h1>
 ```
+
+# Anatomia de un HTML
+ ```html
+ <!Doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title> Proyecto 1 </title>
+<link rel ="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+<header> Encabezado
+<nav> Menu </nav>
+</header>
+<main> Contenido principal
+<section> Seccion de una pagina
+<article>
+<ol>  //lista ordernada 
+<li> Marge </li>
+<li> Bart</li> 
+<li> Lisa </li>
+</ol>
+</article>
+</article>
+</section>
+</main>
+<footer> @ByPlatzi 2021 </footer>
+</body>
+</html> 
+ ```
+
+#### HTML Semantico:
+* HTML semántico
+* Es un concepto muy importante para los nosotros como desarrolladores.
+
+* Nos va a indicar o señalar que tenemos que usar propiedades adecuadas para los textos, párrafos, imágenes, secciones, etc.
+
+* Tenemos que usar las diferentes etiquetas de HTML que ya existen para las diferentes cosas que queramos colocar.
+
+* **Ventajas**:
+Al hacer esto vamos a lograr tener un código accesible.
+Tenemos el tema de posicionamiento SEO.
+Nos permite tener un código mucho más claro, ligero y fácil de leer.
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202021-09-30%20215520-28ba8103-b824-4c8b-b00d-63e653af79ae.jpg" alt="platzi html semantico" height="300px">
+</div>
+
+* **Etiqueta div**
+  Es una etiqueta comodín, nos permite hacer muchas cosas no es una buena práctica usarla en cada cosa que hagamos.
+
+<div align="center">
+<img src="https://static.platzi.com/media/user_upload/html5_sectioning_high_level-8080ec80-4567-4401-a429-7e7a0ddf26c4.jpg" alt="platzi html semantico" height="300px">
+</div>
+
+* **Estructura basica**
+  * Todas los sitios web tienden a compartir componentes estándar similares.
+  
+- **CABEZERA o HEADER**: **< header >**
+- **NAV o NAVBAR**: **< nav >** .
+- **CENTENIDO DEL CUERPO PRINCIPAL**:** < main >** , con varias subsecciones de -contenido representados por **< article >**, **< section >** y **< div >** elementos.
+- **RECUADRO****:< aside> a menudo colocado en el interior **< main >**.
+- **PIE DE PAGINA O FOOTER**: **< footer >**
