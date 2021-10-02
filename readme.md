@@ -128,7 +128,23 @@ Nos permite tener un código mucho más claro, ligero y fácil de leer.
 
 * **Estructura basica**
   * Todas los sitios web tienden a compartir componentes estándar similares.
-  * web de referencia : [link] (https://htmlreference.io)
+  * webs de recursos : 
+    * **[Referencia-Html]** (https://htmlreference.io)
+    * **[Imagenes]** (https://pexels.com/es-es)
+    * **[Imagenes]** (https://unsplash)
+    * **[Imagenes]** (https://placeholder.com)
+    * **[Genedador-texto]** (http://getlorem.com)
+    * **[Favicon-generador]** (http://favicon-generator.org)
+    * **[Iconos]** (https://fontawesome.com)
+    * **[Iconos]** (https://feathericons.com)
+    * **[Falsear-datos]** (https://mockaroo.com)
+    * **[Ids-Generator]** (https://uuidgenerator.net)
+    * **[Colores]** (https://colorhunt.co)
+    * **[Colores]** (https://flatuicolors.com)
+    * **[Colores]** (https://uigradients.com)
+    * **[Colores]** (https://colorhailpixel.com)
+    * **[Diagramas]** (https://app.diagrams.net)
+    * **[Diagramas]** (https://wireframe.cc)
   
 - **CABEZERA o HEADER**: **< header >**
 - **NAV o NAVBAR**: **< nav >** .
